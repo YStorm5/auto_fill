@@ -1,0 +1,41 @@
+<html>
+<style>
+  .container {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .btn {
+    margin-top: 4px;
+    border: solid black 1px;
+    padding: 4px;
+    border-radius: 4px;
+  }
+
+  .input {
+    margin-top: 2px;
+    padding: 4px;
+    border: solid 1px black;
+    border-radius: 4px;
+  }
+
+  .btn-group {
+    display: flex;
+    gap: 6px;
+  }
+</style>
+
+<body>
+  <div class="container">
+    <label for="text">Text-Length</label>
+    <input id="text" class="input" type="number" max="30">
+    <div class="btn-group">
+      <button class="btn" id="saveBtn">Save</button>
+      <button class="btn" id="myBtnOnly">Click</button>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+
+</html>

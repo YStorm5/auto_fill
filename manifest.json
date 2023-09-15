@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Auto Fill",
   "description": "Auto fill all the input",
-  "version": "1.0",
+  "version": "0.1",
   "action": {
     "default_popup": "hello.html",
     "default_icon": "autofill.png"
